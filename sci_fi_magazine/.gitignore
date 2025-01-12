@@ -1,0 +1,22 @@
+# Python-related
+*.pyc
+__pycache__/
+env/
+venv/
+db.sqlite3  # Avoid committing your database unless necessary
+
+# Node-related
+node_modules/
+dist/
+*.log
+
+# VSCode settings (optional)
+.vscode/
+
+# Media/Static
+/media/
+staticfiles/
+
+# System files
+.DS_Store
+Thumbs.db

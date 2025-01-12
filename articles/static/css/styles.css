@@ -1,0 +1,87 @@
+/* static/css/styles.css */
+.sci-fi-heading {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #f8a464;
+    text-shadow: 10px 10px 5px rgba(29, 44, 44, 0.8);
+    text-align: center;
+    position: sticky; /* Sticky positioning */
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 1000; /* Ensure it stays above other elements */
+    background: linear-gradient(45deg, #eea94ffd, #2e40aa,  #0f111a);
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+}
+
+.sci-fi-sub-heading{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Initially, no animation is active */
+.bounce {
+    display: inline-block;
+    animation: none;
+}
+
+.card-img-top{
+    max-height: 250px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 12px 24px;
+    color: #ffffff; /* White text color */
+    background-color: #c56322; /* Green button color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 8px; /* Rounded edges */
+    font-size: 16px; /* Readable font size */
+    font-weight: bold; /* Bold text */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.back-button:hover {
+    background-color: #da6928; /* Darker green on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10); /* Deeper shadow */
+    transform: translateY(-2px); /* Slight "lift" effect */
+}
+
+.back-button:active {
+    background-color: #ce530c; /* Even darker green for active state */
+    transform: translateY(0); /* Reset the lift effect */
+}
+
+.article-image{
+    max-width: 350px;
+    padding: 30px;
+}
+
+.article-text{
+    padding: 30px;
+   
+}
+
+.article-author{
+    padding: 10px;
+}
+.published-date{
+    padding: 10px;
+}

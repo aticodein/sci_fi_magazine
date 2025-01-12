@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sci-Fi Magazine</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    {% load static %}
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{% static 'media/images/favicon.ico' %}"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- React app will render here -->
+    <script src="{% static 'bundle.js' %}"></script>
+  </body>
+</html>
