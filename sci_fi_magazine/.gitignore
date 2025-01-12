@@ -3,7 +3,7 @@
 __pycache__/
 env/
 venv/
-db.sqlite3  # Avoid committing your database unless necessary
+db.sqlite3
 
 # Node-related
 node_modules/
